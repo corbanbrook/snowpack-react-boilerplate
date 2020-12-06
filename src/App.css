@@ -11,8 +11,12 @@ header {
 }
 
 header a {
-  color: white;
+  color: #ccc;
   margin: 0 10px;
+}
+
+header a.active {
+  color: white;
 }
 
 main {
