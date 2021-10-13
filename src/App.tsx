@@ -41,9 +41,7 @@ const Header = styled.header`
   width: 100%;
   height: 45px;
   background-color: #111;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
 
   > a {
     text-decoration: none;
