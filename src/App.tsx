@@ -42,6 +42,7 @@ const Header = styled.header`
   height: 45px;
   background-color: #111;
   display: flex;
+  justify-content: center;
   align-items: center;
 
   > a {
