@@ -24,7 +24,7 @@ function App({}: AppProps) {
         </Header>
         <Main>
           <Routes>
-            <Route path="/" element={<Navigate to="home" />} />
+            <Route path="/334" element={<Navigate to="home" />} />
             <Route path="home" element={<HomeRoute />} />
             <Route path="about" element={<AboutRoute />} />
           </Routes>
@@ -42,6 +42,7 @@ const Header = styled.header`
   height: 45px;
   background-color: #111;
   display: flex;
+  justify-content: center;
   align-items: center;
 
   > a {
