@@ -1,0 +1,9 @@
+diff a/src/index.tsx b/src/index.tsx	(rejected hunks)
+@@ -4,6 +4,7 @@
+ 
+ ReactDOM.render(
+   <React.StrictMode>
++    <App />33
+   </React.StrictMode>,
+   document.getElementById('root')
+ )
